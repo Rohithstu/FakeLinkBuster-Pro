@@ -921,7 +921,7 @@ def logout():
     session.pop('user', None)
     return redirect(url_for('index'))
 
-# ------------------ RUN APP -----------------------
+# ------------------ RUN APP FOR RENDER -----------------------
 if __name__ == '__main__':
     # Initialize databases
     import sqlite3
@@ -986,4 +986,6 @@ if __name__ == '__main__':
     print("   - https://paypal.com.security-update.club")
     print("\n💡 For presentation: Use the test-dangerous page for guaranteed results!")
     
-    app.run(debug=True)
+    # RENDER COMPATIBILITY - Get port from environment variable
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host='0.0.0.0', port=port, debug=False)
