@@ -116,15 +116,9 @@ Encrypted Communications: All API calls use HTTPS
 
 Open Source: Transparent code for security verification
 
-📞 Support
-Documentation: GitHub Wiki
 
-Issues: GitHub Issues
 
-Email: rohith23241a6731@grietcollege.com
-
-📜 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+Email: reddykrohith7@gmail.com
 
 🙏 Acknowledgments
 Google Safe Browsing API for threat intelligence
@@ -143,3 +137,4 @@ LinkBuster AI - Because your safety comes first
 ⭐ Star this repo • 🐛 Report issues • 🔧 Contribute
 
 </div>
+
